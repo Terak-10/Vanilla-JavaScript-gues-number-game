@@ -1,0 +1,1 @@
+### Spraviť responzívne + na novo celé css
