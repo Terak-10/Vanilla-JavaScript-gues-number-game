@@ -20,7 +20,7 @@ if(!guess) {
     currentScore ++;
     score.textContent = currentScore;
     document.querySelector("body").style.backgroundColor = "#60b347";
-    number.style.width = "30rem";
+    number.style.padding = "2rem 3.5rem";
     number.textContent = secretNumber;
 
     if(currentScore > highScore) {
@@ -49,5 +49,5 @@ document.querySelector(".again").addEventListener("click", function() {
     score.textContent = currentScore;
     number.textContent = "?"
     document.querySelector("body").style.backgroundColor = "#222";
-    number.style.width = "15rem";
+    number.style.padding = "1.5rem 2.7rem";
 });
